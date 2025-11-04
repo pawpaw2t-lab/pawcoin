@@ -1,0 +1,9 @@
+[project]
+name = "pawbit"
+description = "Pawbit fungible token (SIP-010 style)"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.pawbit]
+path = "contracts/pawbit.clar"
+depends_on = []
